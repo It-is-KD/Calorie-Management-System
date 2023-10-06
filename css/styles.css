@@ -1,0 +1,19 @@
+/*========================================================================================  URL Imports*/
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+:root{
+    --header-height: 3rem
+}
+
+.body{
+    background-color: hsl(0, 0%, 96%);
+    margin-top: var(--header-height);
+    margin-bottom: var(--header-height);
+}
+
+.header{
+    max-width: 100%; 
+    padding: 0;
+    background-color: hsl(0, 0%, 96%);
+}
