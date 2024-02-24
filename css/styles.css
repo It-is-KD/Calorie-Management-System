@@ -11,6 +11,8 @@
     --bg-home: url('/imgs/homebg.jpg');
     --bg-suggestions: url('/imgs/suggestionsbg.jpg');
     --bg-trackerscroll: url('/imgs/trackerbgscroll.jpg');
+    --bgtrackerbg1: url('/imgs/trackerbg1.png');
+    --bgtrackerbg2: url('/imgs/trackerbg2.png');
 
 }
 
@@ -33,7 +35,6 @@
     background-attachment: fixed;
 }
 
-.body-tracker{ background-color: bisque; }
 /*========================================================================================  Header*/
 .header{
     padding: 0;
@@ -52,13 +53,24 @@
 .login-card{ background-color: var(--primary-color); }
 
 .trackerscroll{ 
-    background-image: var(--bg-trackerscroll); 
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.corner-cut{ border-radius: .5rem 0 0 6rem; }
+/* .corner-cut{ border-radius: .5rem 0 0 6rem; } */
 
+.itemlistbg{
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-list{
+  background: inherit; 
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 5px 2px gray;
+}
 
 /*========================================================================================  Progress Bar*/
 .progress {
@@ -129,3 +141,41 @@
     top: 0;
     left: 0;
   }
+
+
+  .inputstyle {
+  padding: 20px !important;
+}
+
+.caloriescont {
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.caloriescont ul {
+  padding: 0px;
+}
+
+.caloriescont ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #efefef;
+  width: 80%;
+}
+
+.caloriescont h3 {
+  color: #4b8673;
+  font-size: 2em;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.caloriescont h5 {
+  color: #4b8673;
+}
+
+.servingsize {
+  background-color: #000000;
+  padding: 10px 30px 10px 5px;
+  color: #ffffff;
+}
