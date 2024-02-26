@@ -8,7 +8,7 @@ $(document).ready(function() {
         $.ajax({
             method: 'GET',
             url: 'https://api.api-ninjas.com/v1/nutrition?query=' + query,
-            headers: { 'X-Api-Key': '66bnx7fkSgQAkFrPpBXghg==ylXre4sYGs4BM010' },
+            headers: { 'X-Api-Key': 'API-KEY' },
             contentType: 'application/json',
             success: function(result) {
                 displayResult(result);
